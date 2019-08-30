@@ -18,7 +18,9 @@
 	import Server from './Server.vue';
 	import { eventBus } from '../../main.js';
 	export default {
-
+		// NOTE: instead of using multiple event busses you could have used the servers data prop as props also keep in mind that you
+		// could have changed the object directly in the  serverdetails vue cause an object or array is a ref type !!
+		// That means it referenced by a pointer
 		data: function() {
 			return {
 				servers: [
