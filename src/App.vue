@@ -17,6 +17,8 @@
     import Servers from './components/Server/Servers.vue';
     import ServerDetails from './components/Server/ServerDetails.vue';
 
+	// Define an event bus for server and ServerDetails
+
     export default {
         components: {
             appHeader: Header,
